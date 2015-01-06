@@ -16,9 +16,9 @@ cinst texmaker
 cinst winedt
 
 # Revision Control 
-cinst tortoisesvn
-cinst TortoiseGit
-cinst git
+#cinst tortoisesvn
+#cinst TortoiseGit
+#cinst git
 
 # Standard Utilities 
 cinst cyg-get
