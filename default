@@ -1,0 +1,51 @@
+# Windows settings
+Enable-RemoteDesktop
+Set-WindowsExplorerOptions  -EnableShowFileExtensions 
+cinst sysinternals 
+cinst Boxstarter -force
+
+# Browsers and Plugins
+cinst flashplayerplugin
+cinst GoogleChrome
+cinst Firefox
+
+# LaTeX Utilities 
+cinst miktex
+cinst texmaker
+# note that WinEdt needs to have the site license added!
+cinst winedt
+
+# Revision Control 
+cinst tortoisesvn
+cinst TortoiseGit
+cinst git
+
+# Standard Utilities 
+cinst cyg-get
+cinst xming
+cinst notepadplusplus
+cinst vim
+cinst filezilla
+cinst winscp
+cinst putty 
+cinst 7zip
+cinst VirtualCloneDrive
+cinst treesizefree
+cinst bleachbit
+cinst InfraRecorder
+cinst curl
+cinst wget
+cinst clink
+# An updated power shell is required for some scripts
+cinst PowerShell
+
+# Runtimes
+cinst javaruntime
+cinst python2
+cinst pip
+
+# Office and Media
+cinst libreoffice
+cinst gimp
+cinst InkScape
+cinst vlc
